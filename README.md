@@ -3,7 +3,7 @@
 ## Installation
 
 - Git clone
--`npm install` 
+- `npm install` 
 
 ## Run the app in the development mode
 - `npm start`
