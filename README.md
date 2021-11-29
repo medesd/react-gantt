@@ -13,7 +13,7 @@
 React Gantt Chart is a simple chart that implements gantt functionality as 
 a React components.
 
-Plugin was tested and should work on:
+the project was tested and should work on:
 
  - Firefox 50+
  - Chrome 49+
