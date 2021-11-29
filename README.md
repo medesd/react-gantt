@@ -8,6 +8,15 @@
 
 ## Run the app in the development mode
 - `npm start`
+- options
+- {lang?: 'fr' | 'es' | 'en';
+    title?: string;
+    excludeToolTip?: string[];
+    excludeCol?: string[];
+    data: DataType[];
+    scroll?: number;
+    weekEnd?: boolean;
+    defaultScale?: 'day' | 'month' | 'year';}
 
 ## About
 
