@@ -1,26 +1,44 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Chart from "./cmp/Chart";
+import {DataType} from "./tools/Types";
+import moment from "moment";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const data: DataType[] = [
+        {
+            rows: {name: "test1", next: "next1"},
+            dayES: moment('08-12-2019', 'DD-MM-YYYY'),
+            dayRS: moment('08-12-2019', 'DD-MM-YYYY'),
+            dayEE: moment(),
+            dayRE: moment()
+        },
+        {
+            rows: {name: "test2", next: "next2"},
+            dayES: moment('08-12-2018', 'DD-MM-YYYY'),
+            dayRS: moment('08-12-2018', 'DD-MM-YYYY'),
+            dayEE: moment(),
+            dayRE: moment()
+        },
+        {
+            rows: {name: "test3", next: "next3"},
+            dayES: moment('08-12-2017', 'DD-MM-YYYY'),
+            dayRS: moment('08-12-2017', 'DD-MM-YYYY'),
+            dayEE: moment(),
+            dayRE: moment()
+        },
+        {
+            rows: {name: "test3", next: "next3"},
+            dayES: moment('08-12-2017', 'DD-MM-YYYY'),
+            dayRS: moment('08-12-2017', 'DD-MM-YYYY'),
+            dayEE: moment(),
+            dayRE: moment()
+        }
+    ]
+    return (
+        <div>
+            <Chart options={{lang: 'fr', data}}/>
+        </div>
+    );
 }
 
 export default App;
