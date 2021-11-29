@@ -1,9 +1,9 @@
-## [Demo and Documentation]
+## Demo and Documentation
 
 ## Installation
 
 - Git clone
-- `npm install` 
+-`npm install` 
 
 ## Run the app in the development mode
 - `npm start`
