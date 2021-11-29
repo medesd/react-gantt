@@ -9,14 +9,12 @@
 ## Run the app in the development mode
 - `npm start`
 - options
-- {lang?: 'fr' | 'es' | 'en';
-    title?: string;
-    excludeToolTip?: string[];
-    excludeCol?: string[];
-    data: DataType[];
-    scroll?: number;
-    weekEnd?: boolean;
-    defaultScale?: 'day' | 'month' | 'year';}
+
+| Global           | Specific              | Type          | Values                                                                                                                                | Description                                                                                                                                                                                         |
+| :--------------- | :-------------------- | :------------ | :------------------------------------------------------------------------------------------------------------------------------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| place            | data-place            | String        | top, right, bottom, left                                                                                                              | placement                                                                                                                                                                                           |
+| type             | data-type             | String        | dark, success, warning, error, info, light                                                                                            | theme                                                                                                                                                                                               |
+| effect           | data-effect           | String        | float, solid                                                                                                                          | behaviour of tooltip
 
 ## About
 
