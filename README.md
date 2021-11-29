@@ -1,4 +1,5 @@
-## Demo and Documentation
+## Documentation
+## [Demo](https://codesandbox.io/s/github/MEDESD/react-gantt)
 
 ## Installation
 
