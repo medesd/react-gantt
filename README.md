@@ -20,7 +20,7 @@
 | defaultScale   | enum            | day           | day, month, year                 | scale of the zoom               |
 | weekEnd        | boolean         | false         |                                  | exclude weekends from the chart |
 
-- note
+## note
 - dayES = date Estimated start
 - dayEE =  date Estimated end
 - dayRS = date Reel start
