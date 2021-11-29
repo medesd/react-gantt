@@ -20,6 +20,13 @@
 | defaultScale   | enum            | day           | day, month, year                 | scale of the zoom               |
 | weekEnd        | boolean         | false         |                                  | exclude weekends from the chart |
 
+- note
+- dayES = date Estimated start
+- dayEE =  date Estimated end
+- dayRS = date Reel start
+- dayRE = date Reel end
+
+
 ## About
 
 React Gantt Chart is a simple chart that implements gantt functionality as 
